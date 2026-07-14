@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-family: arial;
+}
+
+.rock-paper-scissors {
+  font-size: 30px;
+  font-weight: bold;
+}
+.move-icon {
+  height: 120px;
+  width: 120px;
+  border:1px solid yellow;
+  background-color: transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  padding-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  padding: 8px 12px;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
